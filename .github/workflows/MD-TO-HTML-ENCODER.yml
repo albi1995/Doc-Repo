@@ -31,6 +31,7 @@ jobs:
     - name: Build
       working-directory: website
       run: yarn build
+    
 
     - name: Deploy 
       uses: peaceiris/actions-gh-pages@v2
@@ -40,3 +41,4 @@ jobs:
         # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         PUBLISH_BRANCH: gh-pages
         PUBLISH_DIR: 'website/build/docusaurus-trial' 
+        run: yarn publish
