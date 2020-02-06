@@ -23,15 +23,15 @@ const users = [
 const siteConfig = {
   title: 'wiznet india', // Title for your website.
   tagline: 'Documentation',
-  url: 'https://ANNMARIA1996.github.io', // Your website URL
-  baseUrl: '/docusaurus-trial/', // Base URL for your project */
+  url: 'https://albi1995.github.io', // Your website URL
+  baseUrl: '/Doc-Repo/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'docusaurus-trial',
-  organizationName: 'ANNMARIA1996',
+  projectName: 'Doc-Repo',
+  organizationName: 'albi1995',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
